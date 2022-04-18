@@ -1,0 +1,6 @@
+valor = input('Digote algo:')
+print('É um flutuante', valor.isdecimal())
+print('É um numero:', valor.isnumeric())
+print('É uma string', valor.isalpha())
+print('É numero e string', valor.isalnum())
+print(valor)
